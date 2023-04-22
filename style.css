@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ body{
+    background: #2980B9; 
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{
+    width: 400px;
+    height: 450px;
+    background: #36D1DC;  
+    background: -webkit-linear-gradient(to bottom, #5B86E5, #36D1DC);
+    background: linear-gradient(to bottom, #5B86E5, #36D1DC); 
+    position: absolute;
+    border: 3px  rgb(0, 0, 0);
+    border-radius: 12px; 
+ }
+ .main input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 8px;
+    text-align: right;
+    padding: 5px 6px;
+    outline: none;
+    font-size: 40px;
+    border: 3px solid rgb(233, 221, 221);
+    display: flex;
+    margin: auto;
+    border-radius: 9px;
+    color: black;
+ }
+ .btn input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 23px;
+    transition: 0.5s;
+    background-color:rgb(71, 226, 226);
+    border-radius: 6px;
+    color: black;
+ }
+ .btn input[type='button']:hover{
+    background-color: white;
+    color: black;
+    transition: ease-out;
+ }
